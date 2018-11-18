@@ -1,0 +1,172 @@
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.class container
+/* section heading */
+.section-heading {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 1000px;
+}
+.kotak {
+  min-height: 500px;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+/*logo*/
+.logo{
+  width: 500px;
+  min-height: 400px;
+  padding: 10px;
+  background-color: white;
+  border: solid 2px #eee;
+  border-radius: 5px;
+  float:left;
+
+}
+
+.logo img{
+  width: 100%;
+  height: auto;
+}
+
+.logo iframe {
+  width: 100%;
+  min-height: 400px;
+}
+
+/* class Profil*/
+.profil {
+  width: 800px;
+  min-height: 400px;
+  border: solid 2px #eee;
+  border-radius: 5px;
+  padding: 10px;
+  float: right;
+}
+
+.profil h1{
+  color:red;
+  border-bottom: solid thin #EEEEEE;
+  margin-top: 0;
+  font-size: 28px;
+}
+
+.profil p{
+  text-align: justify;
+  color:#666;
+}
+
+.profil img{
+  width: 30%;
+  height: auto;
+  padding: 5px;
+  border: solid 1px #eee;
+  background-color: pink;
+  border-radius: 5px;
+
+}
+/* About Us Area CSS */
+
+.about-content h2 {
+    color: rgba(0, 0, 255, 0.7);
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 60px;
+}
+
+.clearfix{
+  clear: both;
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 50px;
+
+}
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+  background-color: #c6d4e1;
+}
+
+
+
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+
+#scrollUp {
+    bottom: 70px;
+    font-size: 18px;
+    right: 0;
+    width: 40px;
+    background-color: rgb(0,161,159);
+    color: blue;
+    text-align: center;
+    height: 40px;
+    line-height: 44px;
+    border-radius: 0;
+    font-size: 36px;
+}
+
+/* Footer Area CSS */
+
+.dorne-footer-area {
+    padding: 40px 5px;
+    border-top: 2px solid rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 66, 65, 0.9);
+}
+
+.colorlib-widgets > h4,p {
+    color: rgba(255, 255, 255);
+}
+
+ .colorlib-footer-links {
+    padding: 0;
+    margin: 0;
+}
+@media screen and (max-width: 768px) {
+    .colorlib-footer-links {
+        margin-bottom: 30px; 
+    }
+}
+.colorlib-footer-links li {
+    color: rgba(255, 255, 255);
+    padding: 0;
+    margin: 0 0 10px 0;
+    list-style: none;
+    display: block;
+}
+.colorlib-footer-links li a {
+    color: rgba(255, 255, 255);
+    text-decoration: none;
+}
+.colorlib-footer-links li a:hover {
+    text-decoration: underline;
+}
+
+.footer-text p {
+    color: rgba(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.footer-text a {
+    color: rgba(255, 255, 255);
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.footer-social-btns > a {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    padding: 0 15px;
+    font-size: 14px;
+}
